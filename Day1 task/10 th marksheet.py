@@ -1,0 +1,8 @@
+print("X STANDARD MARK SHEET")
+print("Student name S R AMIRTHA")
+print("TAMIL :95")
+print("ENGLISH :88")
+print("MATHAMENTICS :94")
+print("SCIENCE :98")
+print("SOCIAL SCIENCE :98")
+print("***********TOTAL MARKS********** 473")
