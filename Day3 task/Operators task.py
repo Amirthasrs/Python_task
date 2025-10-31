@@ -13,8 +13,12 @@ print()
 print("9. Swap Two Variables")
 d=int(input("Enter your number1"))
 e=int(input("Enter your number2"))
+print("Before swap:",d,e)
+
+o=e
 e=d
-print("Swapped number1 into number2:",d)
+d=o
+print("After swap:",d,e)
 print()
 print("10. Check Datatype")
 Age=int(input("Enter your age"))
@@ -68,7 +72,8 @@ print()
 print("19. Calculate Total Cost")
 COI=int(input("Enter your Cost of item"))
 NOI=int(input("Enter your Number of item"))
-print("TOC",COI*NOI)
+TOC=COI*NOI
+print(TOC)
 print()
 print("20. Small Calculator")
 Num1=int(input("Enter your number"))
